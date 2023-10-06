@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Social media dashboard</title>
+
+	<link rel="stylesheet" href="./css/style.css">	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<script src="./js/app.js" defer></script>
+
+</head>
+<body>
+
+	<main>
+		<div class="top-bg-pattern"></div>
+		<div class="dashboard">
+
+			<div class="theme-switch">
+				<h3 class="theme-mode-text">Dark Mode</h3>
+
+				<input class="switch-checkbox" type="checkbox" id="theme-switch" name="theme">
+				<label class="switch" for="theme-switch"></label>
+
+			</div>
+
+			<h1 class="dashboard-title">Social Media Dashboard</h1>
+			<p class="total-folowers">Total Followers: 23,004</p>
+
+			<ul class="sm-grid">
+
+				<li class="sm-item">
+					<div class="sm-clr-line" data-item-type="facebook"></div>
+					<div class="sm-flex-group">
+						<img class="sm-icon" src="./images/icon-facebook.svg" alt="facebook icon">
+						<span class="sm-username">@nathanf</span>
+					</div>
+					<p class="followers">
+						<span class="follower-count">1987</span>
+						Followers
+					</p>
+					<p class="increase">12 Today</p> <!-- decrease / increase -->
+				</li>
+
+				<li class="sm-item">
+					<div class="sm-clr-line" data-item-type="twitter"></div>
+					<div class="sm-flex-group">
+						<img class="sm-icon" src="./images/icon-twitter.svg" alt="twitter icon">
+						<span class="sm-username">@nathanf</span>
+					</div>
+					<p class="followers">
+						<span class="follower-count">1044</span>
+						Followers
+					</p>
+					<p class="increase">99 Today</p> <!-- decrease / increase -->
+				</li>
+
+				<li class="sm-item">
+					<div class="sm-clr-line" data-item-type="instagram"></div>
+					<div class="sm-flex-group">
+						<img class="sm-icon" src="./images/icon-instagram.svg" alt="instagram icon">
+						<span class="sm-username">@realnathanf</span>
+					</div>
+					<p class="followers">
+						<span class="follower-count">11k</span>
+						Followers
+					</p>
+					<p class="increase">1099 Today</p> <!-- decrease / increase -->
+				</li>
+
+				<li class="sm-item">
+					<div class="sm-clr-line" data-item-type="youtube"></div>
+					<div class="sm-flex-group">
+						<img class="sm-icon" src="./images/icon-youtube.svg" alt="facebook icon">
+						<span class="sm-username">Nathan F.</span>
+					</div>
+					<p class="followers">
+						<span class="follower-count">8239</span>
+						Subscribers
+					</p>
+					<p class="decrease">144 Today</p> <!-- decrease / increase -->
+				</li>
+
+			</ul>
+			
+			<h2 class="overviews-title">Overview - Today</h2>
+
+			<ul class="overwiews-grid">
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Page Views</h3>
+						<img src="./images/icon-facebook.svg" alt="facebook icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">87</p>
+						<p class="increase">3%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Likes</h3>
+						<img src="./images/icon-facebook.svg" alt="facebook icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">52</p>
+						<p class="decrease">2%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Likes</h3>
+						<img src="./images/icon-instagram.svg" alt="instagram icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">5462</p>
+						<p class="increase">2257%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Profile Views</h3>
+						<img src="./images/icon-instagram.svg" alt="instagram icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">52k</p>
+						<p class="increase">1375%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Retweets</h3>
+						<img src="./images/icon-twitter.svg" alt="twitter icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">117</p>
+						<p class="increase">303%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Likes</h3>
+						<img src="./images/icon-twitter.svg" alt="twitter icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">507</p>
+						<p class="increase">553%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Likes</h3>
+						<img src="./images/icon-youtube.svg" alt="youtube icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">107</p>
+						<p class="decrease">19%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+				<li class="overviews-item">
+					<div class="overviews-flex-group">
+						<h3 class="overviews-item-title">Total Views</h3>
+						<img src="./images/icon-youtube.svg" alt="youtube icon">
+					</div>
+					<div class="overviews-flex-group">
+						<p class="overview-count">1407</p>
+						<p class="decrease">12%</p> <!-- decrease / increase -->
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+	</main>
+  
+</body>
+</html>
