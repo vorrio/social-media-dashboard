@@ -3,8 +3,6 @@
 let currentThemeLight = localStorage.getItem("theme");
 const checkbox = document.querySelector('.switch-checkbox[name="theme"]');
 
-console.log(currentThemeLight);
-
 if (currentThemeLight === null) localStorage.setItem("theme", "dark");
 if (currentThemeLight === "light") {
 	checkbox.checked = "light";
