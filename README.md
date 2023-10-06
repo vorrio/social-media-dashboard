@@ -14,13 +14,13 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
 
-## Screenshot
+### Screenshot
 
 ![desktop-dark](./design/desktop-dark.png)
 
 ### Links
 
-[Live Site URL](https://your-live-site-url.com)
+[Live Site URL](https://vorrio.github.io/social-media-dashboard/)
 
 ### Built with
 
