@@ -72,7 +72,7 @@ main {
 	max-width: 1108px;
 	width: 100%;
 	margin-inline: auto;
-	padding-top: 36px;
+	padding-block: 36px;
 }
 
 .theme-switch {
@@ -136,6 +136,10 @@ main {
 	font-weight: 700;
 	line-height: 1.5rem;
 	color: var(--clr-text1);
+}
+
+.divider {
+	display: none;
 }
 
 .sm-grid {
@@ -279,3 +283,30 @@ main {
 	color: var(--clr-text2);
 }
 
+@media only screen and (max-width: 600px) {
+	.sm-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.overwiews-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.dashboard {
+		padding: 32px 24px;
+	}
+
+	.theme-switch {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		top: 0;
+	}
+
+	.divider {
+		display: block;
+		height: 1px;
+		margin-block: 12px;
+		background-color: var(--clr-text1);
+	}
+}
